@@ -1,0 +1,23 @@
+{
+    "text": "Push alarm message",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "아직 역할을 선택하지 않으셨습니다.",
+        "markdown": true
+      },
+      {
+        "type": "text",
+        "text": "역할을 추가하거나 선택하여 역할별 메세지를 받아보세요.",
+        "markdown": true
+      },
+      {
+        "type": "button",
+        "text": "돌아가기",
+        "value": "returnWelcome",
+        "action_type": "submit_action",
+		"action_name": "submit",
+        "style": "default"
+      }
+    ]
+  }

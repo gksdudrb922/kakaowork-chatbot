@@ -1,0 +1,25 @@
+{
+  "title": "회의 취소",
+  "accept": "확인",
+  "decline": "취소",
+  "value": "{request_modal의 응답으로 전송한 value 값}",
+  "blocks": [
+    {
+      "type": "label",
+      "text": "취소할 회의를 선택해 주세요.",
+      "markdown": true
+    },
+    {
+      "type": "select",
+      "name": "select_name1",
+      "options": [
+        {
+          "text": "테스트",
+          "value": "1"
+        }
+      ],
+      "required": false,
+      "placeholder": "옵션을 선택해주세요"
+    }
+  ]
+}

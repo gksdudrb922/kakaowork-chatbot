@@ -1,0 +1,28 @@
+{
+    "text": "Push alarm message",
+    "blocks": [
+      {
+        "type": "header",
+        "text": "역할 선택 완료",
+        "style": "blue"
+      },
+      {
+        "type": "text",
+        "text": "선택하신 역할은 *프론트엔드 1팀*입니다.",
+        "markdown": true
+      },
+      {
+        "type": "text",
+        "text": "앞으로 *프론트엔드 1팀* 메세지를 수신합니다.",
+        "markdown": true
+      },
+      {
+        "type": "button",
+        "text": "돌아가기",
+        "value": "returnWelcome",
+        "action_type": "submit_action",
+		"action_name": "submit",
+        "style": "default"
+      }
+    ]
+  }

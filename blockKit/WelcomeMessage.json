@@ -1,0 +1,84 @@
+{
+  "text": "Push alarm message",
+  "blocks": [
+	{
+	  "type": "header",
+	  "text": "안녕하세요. 28조 챗봇 입니다.",
+	  "style": "blue"
+	},
+	{
+	  "type": "text",
+	  "text": "아래의 3가지 기능을 \n사용할 수 있습니다.",
+	  "markdown": true
+	},
+	{
+	  "type": "divider"
+	},
+	{
+	  "type": "text",
+	  "text": "현재 예약된 회의를 볼 수 있고\n회의를 예약할 수 있습니다.",
+	  "markdown": true
+	},
+	{
+	  "type": "button",
+	  "action_type": "submit_action",
+	  "action_name": "meeting_list",
+	  "value": "meeting_list",
+	  "text": "회의 보기",
+	  "style": "default"
+	},
+	{
+	    "type": "button",
+		"action_type": "call_modal",
+		"value": "meeting_reservation",
+		"text": "회의 예약",
+		"style": "default"
+	},
+	{
+	  "type": "divider"
+	},
+	{
+        "type": "text",
+        "text": "역할을 선택하여 푸시 메시지를 보내거나 받을 수 있습니다.",
+        "markdown": true
+    },
+    {
+        "type": "button",
+		"value": "setRoleMessage",
+		"text": "역할 설정하기",
+		"action_type": "submit_action",
+		"action_name": "submit",
+        "style": "default"
+    },
+    {
+        "type": "button",
+        "value": "sendMessageModal",
+        "text": "메시지 보내기",
+        "action_type": "call_modal",
+        "style": "default"
+    },
+	{
+	  "type": "divider"
+	},
+  {
+	  "type": "text",
+	  "text": "이용자의 일정을 볼 수 있고\n일정을 등록할 수 있습니다.",
+	  "markdown": true
+	},
+  	{
+        "type": "button",
+        "value": "showSchedule",
+        "action_type": "submit_action",
+	    "action_name": "showSchedule",
+        "text": "일정 보기",
+        "style": "default"
+    },
+	 {
+        "type": "button",
+        "value": "setSchedule",
+        "text": "일정 등록",
+        "action_type": "call_modal",
+        "style": "default"
+    }
+  ]
+}

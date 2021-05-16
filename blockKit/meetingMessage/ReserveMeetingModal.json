@@ -1,0 +1,51 @@
+{
+  "title": "회의 예약",
+  "accept": "확인",
+  "decline": "취소",
+  "value": "{request_modal의 응답으로 전송한 value 값}",
+  "blocks": [
+    {
+      "type": "label",
+      "text": "온라인 or 오프라인 선택",
+      "markdown": true
+    },
+    {
+      "type": "select",
+      "name": "select_onoff",
+      "options": [
+        {
+          "text": "온라인",
+          "value": "online"
+        },
+        {
+          "text": "오프라인",
+          "value": "offline"
+        }
+      ],
+      "required": false,
+      "placeholder": "옵션을 선택해주세요"
+    },
+    {
+      "type": "label",
+      "text": "날짜 입력",
+      "markdown": true
+    },
+    {
+      "type": "input",
+      "name": "input_date",
+      "required": false,
+      "placeholder": "날짜를 입력해 주세요 ex) 05-14"
+    },
+    {
+      "type": "label",
+      "text": "회의 목적 입력",
+      "markdown": true
+    },
+    {
+      "type": "input",
+      "name": "input_purpose",
+      "required": false,
+      "placeholder": "회의 목적을 입력해 주세요 ex) 프로젝트 기획"
+    }
+  ]
+}

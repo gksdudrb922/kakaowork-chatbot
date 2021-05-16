@@ -1,0 +1,66 @@
+{
+  "title": "일정 등록",
+  "accept": "확인",
+  "decline": "취소",
+  "value": "setSchedule",
+  "blocks": [
+    {
+      "type": "label",
+      "text": "일정의 종류를 선택해주세요.",
+      "markdown": true
+    },
+    {
+      "type": "select",
+      "name": "select_schedule",
+      "options": [
+        {
+          "text": "휴가 (월차, 반차 포함)",
+          "value": "0"
+        },
+        {
+          "text": "병가 (장기적 병가 포함)",
+          "value": "1"
+        },
+        {
+          "text": "개인적인 이유",
+          "value": "2"
+        }
+      ],
+      "required": true,
+      "placeholder": "옵션을 선택해주세요"
+    },
+    {
+      "type": "label",
+      "text": "이름 입력",
+      "markdown": true
+    },
+    {
+      "type": "input",
+      "name": "input_name",
+      "required": true,
+      "placeholder": "이름을 입력해 주세요. ex) 홍길동"
+    },
+    {
+      "type": "label",
+      "text": "시작 날짜 입력",
+      "markdown": true
+    },
+    {
+      "type": "input",
+      "name": "input_start_date",
+      "required": true,
+      "placeholder": "시작 날짜를 입력해 주세요 ex) 05/14"
+    },
+    {
+      "type": "label",
+      "text": "종료 날짜 입력",
+      "markdown": true
+    },
+    {
+      "type": "input",
+      "name": "input_end_date",
+      "required": true,
+      "placeholder": "종료 날짜를 입력해 주세요 ex) 05/17"
+    }
+  ]
+}

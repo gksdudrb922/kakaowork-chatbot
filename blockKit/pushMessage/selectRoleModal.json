@@ -1,0 +1,25 @@
+{
+    "title": "역할 선택하기",
+    "accept": "확인",
+    "decline": "취소",
+    "value": "selectRole",
+    "blocks": [
+      {
+        "type": "label",
+        "text": "역할을 선택하여 주세요",
+        "markdown": true
+      },
+      {
+        "type": "select",
+        "name": "select_name",
+        "options": [
+           {
+            "text": "선택해주세요",
+            "value": "1"
+          }
+        ],
+        "required": true,
+		"placeholder": "옵션을 선택해주세요"
+      }
+    ]
+  }

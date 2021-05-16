@@ -1,0 +1,19 @@
+{
+    "title": "역할 추가하기",
+    "accept": "확인",
+    "decline": "취소",
+    "value": "addRole",
+    "blocks": [
+      {
+        "type": "label",
+        "text": "추가할 역할의 이름을 입력해주세요.",
+        "markdown": true
+      },
+      {
+        "type": "input",
+        "name": "input_name",
+        "required": true,
+        "placeholder": "예) 프론트엔드 1팀"
+      }
+    ]
+  }

@@ -1,0 +1,15 @@
+{
+  "text": "Push alarm message",
+  "blocks": [
+    {
+      "type": "header",
+      "text": "현재 예약된 회의 목록입니다.",
+      "style": "blue"
+    },
+    {
+      "type": "text",
+      "text": "05/14 | 온라인 | 프로젝트 기획 회의\n05/17 | 온라인 | 아이디어 회의\n05/21 | 오프라인 | 중간 점검 회의",
+      "markdown": true
+    }
+  ]
+}

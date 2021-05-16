@@ -1,0 +1,15 @@
+{
+    "text": "Push alarm message",
+    "blocks": [
+      {
+        "type": "header",
+        "text": "to ",
+        "style": "blue"
+      },
+      {
+        "type": "text",
+        "text": "*프론트엔드 1팀*에게 메세지를 성공적으로 보냈습니다",
+        "markdown": true
+      }
+    ]
+  }

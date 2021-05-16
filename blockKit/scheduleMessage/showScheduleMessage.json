@@ -1,0 +1,15 @@
+{
+  "text": "Push alarm message",
+  "blocks": [
+    {
+      "type": "header",
+      "text": "현재 등록된 일정 목록입니다.",
+      "style": "blue"
+    },
+    {
+      "type": "text",
+      "text": "",
+      "markdown": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+    "text": "Push alarm message",
+    "blocks": [
+      {
+        "type": "header",
+        "text": "역할 초기화 완료",
+        "style": "blue"
+      },
+      {
+        "type": "text",
+        "text": "역할이 모두 삭제 되었습니다.",
+        "markdown": true
+      },
+      {
+        "type": "button",
+        "text": "돌아가기",
+        "value": "returnWelcome",
+        "action_type": "submit_action",
+		"action_name": "submit",
+        "style": "default"
+      }
+    ]
+  }

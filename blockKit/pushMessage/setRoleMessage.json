@@ -1,0 +1,45 @@
+{
+    "text": "Push alarm message",
+    "blocks": [
+      {
+        "type": "header",
+        "text": "역할 설정하기",
+        "style": "blue"
+      },
+      {
+        "type": "text",
+        "text": "역할을 선택하면 해당 역할의 팀원들에게 보내는 푸시 메시지를 수신할 수 있습니다.",
+        "markdown": true
+      },
+      {
+        "type": "button",
+        "text": "선택한 역할 보기",
+        "value": "showRoleMessage",
+        "action_type": "submit_action",
+		"action_name": "submit",
+        "style": "default"
+      },
+      {
+        "type": "button",
+        "text": "역할 선택하기",
+        "value": "selectRoleModal",
+        "action_type": "call_modal",
+        "style": "default"
+      },
+      {
+        "type": "button",
+        "text": "새로운 역할 추가하기",
+        "value": "addRoleModal",
+        "action_type": "call_modal",
+        "style": "default"
+      },
+      {
+        "type": "button",
+        "text": "나의 역할 초기화하기",
+        "value": "resetRoleMessage",
+        "action_type": "submit_action",
+		"action_name": "submit",
+        "style": "default"
+      }
+    ]
+}

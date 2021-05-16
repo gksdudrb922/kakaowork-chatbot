@@ -1,0 +1,18 @@
+{
+    "text": "Push alarm message",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "*이름*님이 선택한 역할은 *프론트엔드 1팀, 개발 2팀, iOS 1팀*입니다.",
+        "markdown": true
+      },
+      {
+        "type": "button",
+        "text": "돌아가기",
+        "value": "returnWelcome",
+		"action_type": "submit_action",
+		"action_name": "submit",
+        "style": "default"
+      }
+    ]
+  }
